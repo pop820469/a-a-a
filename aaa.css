@@ -1,0 +1,33 @@
+html
+{
+    font-size: 16px;
+    font-style: italic;
+}
+
+body
+{   
+    margin: 0;
+    /* background-color: #addf55; */
+    background-image: url("../images/pexels-vladimirsrajber-19963636.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.hahal
+{
+    color: rgb(58, 109, 249);
+    font-weight: 100; 
+    text-align: justify;
+    text-indent: 50px;
+    width: 65%;
+    padding: 10px;
+    line-height: 1.35em;
+    word-spacing: 0.2em;
+    letter-spacing: 0.2em;
+}
+
+.hahal::first-letter
+{
+    font-weight: bold;
+    font-size: 1.5em;
+}
